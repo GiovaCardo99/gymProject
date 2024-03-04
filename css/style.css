@@ -1,0 +1,44 @@
+.custom-nav {
+    background-color: #333; /* Colore di sfondo */
+    padding: 15px 0; /* Spaziatura interna */
+}
+
+.custom-nav .a-navbar-nav {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Allinea gli elementi al centro */
+}
+
+.custom-nav .a-navbar-nav li {
+    display: inline-block; /* Disposizione in linea degli elementi */
+    margin-right: 20px; /* Spazio tra gli elementi */
+}
+
+.custom-nav .a-navbar-nav li:last-child {
+    margin-right: 0; /* Rimuove lo spazio a destra per l'ultimo elemento */
+}
+
+.custom-nav .a-navbar-nav li a {
+    color: #fff; /* Colore del testo */
+    font-size: 16px; /* Dimensione del testo */
+    text-decoration: none; /* Rimuove la sottolineatura */
+    padding: 10px 15px; /* Spaziatura interna */
+    transition: all 0.3s ease; /* Animazione transizione */
+}
+
+.custom-nav .a-navbar-nav li a:hover {
+    color: #ffd700; /* Cambia colore al passaggio del mouse */
+}
+.test{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}.navbar-nav li a {
+    transition: all 0.3s ease-in-out; /* Definisci la transizione per tutti i link nel menu di navigazione */
+}
+
+.navbar-nav li a:hover {
+    color: #ff0000; /* Cambia il colore del testo quando si passa sopra con il mouse */
+}
